@@ -3,7 +3,7 @@ function GenerateBoyName(){
 
     var rand_boy = Math.floor(Math.random()*BoyName.length);
     
-    document.getElementById('result').innerHTML = "<div class='name-container'> <h3>"+BoyName[rand_boy]+"</h3></div>";
+    document.getElementById('result').innerHTML = "<div class='name-container'> <h3 class='your-name'>"+BoyName[rand_boy]+"</h3></div>";
 }
 
 function GenerateGirlName (){
@@ -11,7 +11,7 @@ function GenerateGirlName (){
 
     var rand_girl = Math.floor(Math.random()*GirlName.length);
 
-    document.getElementById('result').innerHTML = "<div class='name-container'> <h3>"+GirlName[rand_girl]+"</h3></div>";
+    document.getElementById('result').innerHTML = "<div class='name-container'> <h3 class='your-name'>"+GirlName[rand_girl]+"</h3></div>";
 }
 
 function GenerateNbName(){
@@ -19,5 +19,5 @@ function GenerateNbName(){
 
     var rand_nb = Math.floor(Math.random()*NbName.length);
 
-    document.getElementById('result').innerHTML = "<div class='name-container'> <h3>"+NbName[rand_nb]+"</h3></div>";
+    document.getElementById('result').innerHTML = "<div class='name-container'> <h3 class='your-name'>"+NbName[rand_nb]+"</h3></div>";
 }

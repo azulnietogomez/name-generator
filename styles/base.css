@@ -1,8 +1,12 @@
 :root {
-    --pink-lavander: #d8a7ca;
-    --turquoise: #4effef;
-
-    --fuente: 'Pushster', cursive;
+    --pink-lavander: rgb(216, 167, 202);
+    --soft-pink: rgb(246, 205, 235) ;
+    --turquoise: #99fcf4 ;
+    --just-black: #000 ;
+    --dark-gray: #19191a ;
+    --just-white: #fff;
+    --cute-yellow: rgba(255, 239, 147, 0.75);
+    --fuente: 'Lato', sans-serif ;
 }
 
 * {
@@ -15,3 +19,11 @@ html {
     font-size: 62.5%;
 }
 
+body, header {
+    font-family: var(--fuente);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

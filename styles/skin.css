@@ -1,100 +1,94 @@
 
 header {
-    background-color: var(--pink-lavander) ;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 
 .header__logo {
-    font:bold 1.8rem sans-serif;
-    color: white;
-}
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0.05em 0 0 var(--pink-lavander),
+    -0.025em -0.05em 0 var(--cute-yellow),
+    0.025em 0.05em 0 var(--turquoise)
 
+}
 
 body {
-    background: rgb(255,143,192);
-    background: radial-gradient(circle, rgba(255,143,192,1) 0%, rgba(255,255,255,1) 0%, rgba(142,190,246,1) 30%, rgba(255,208,229,1) 50%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 76%, rgba(142,190,246,1) 100%);
+    background-color: var(--dark-gray);
 }
 
-main {
-    background-color: transparent;
-}
 
-.generator {
-    background-color: transparent;
-}
-
-.generator-container {
-    padding: 10px;
-    background: rgba( 255, 177, 237, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
-    border-radius: 10px;background: rgba( 255, 177, 237, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
-    border-radius: 10px;
-}
-
-.generator-container h1 {
+.title {
     padding-bottom: 25px;
-    font-size: 1.9rem;
-    font-family: var(--fuente);
+    font-size: 3.5rem;
+    letter-spacing: 2px;
     text-align: center;
-    color: #fff;
-    text-shadow: 0px 0px 4px rgba(255,137,189,0.6);
+    color: var(--just-white);
+    text-shadow: 0.03em 0 0 var(--pink-lavander),
+    -0.025em -0.03em 0 var(--cute-yellow),
+    0.025em 0.03em 0 var(--turquoise)
 }
 
-.generator-container .get-name {
+.get-name {
+    min-width: 80% ;
+    height: 70px;
     padding: 10px 25px;
     margin-bottom: 25px;
-    border-radius: 8px;
-    font-family: sans-serif;
     font-weight: 600;
-    font-size: 1rem;
-    color: white;
-    cursor: pointer;
-
-    background: rgba( 142, 191, 255, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    color: var(--just-white);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+    background: rgba(27, 28, 28, 0.45);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+
 }
 
-.generator-container h2 {
+.your-new-name{
     margin-top: 5px;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     font-family: sans-serif;
+    letter-spacing: 1px;
     text-align: center;
-    color: #fff;
+    color: var(--just-white);
+
+    text-shadow: 0.02em 0 0 var(--pink-lavander),
+    -0.025em -0.02em 0 var(--cute-yellow),
+    0.025em 0.02em 0 var(--turquoise)
 }
 
 .result {
-    width: 90%;
-    height: 30%;
-    background: rgba( 255, 255, 255, 0.65 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
+    background: var(--just-white);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
 
 
-.name-container h3 {
+.your-name {
     font-family: var(--fuente);
     font-size: 4rem;
-    color: white;
-    text-shadow: 0px 2px 8px rgba(164, 137, 255, 0.6);
+    color: var(--just-black);
+    letter-spacing: 1.5px;
+    text-shadow: 0.05em 0 0 var(--pink-lavander),
+    -0.025em -0.05em 0 var(--cute-yellow),
+    0.025em 0.05em 0 var(--turquoise)
 }
 
 footer {
-    background: #16BFFD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px 20px 0 0;
+    background: #16BFFD;
+    /*fallbackforoldbrowsers*/background: -webkit-linear-gradient(to right, var(--pink-lavander), var(--turquoise));
+    /*Chrome10-25,Safari5.1-6*/background: linear-gradient(to right, var(--pink-lavander), var(--turquoise));
 }
+
 
 
 .social-list {
@@ -103,12 +97,29 @@ footer {
 }
 
 .social-container h4 {
-    font-family: sans-serif;
-    color: #fff;
+    font-size: 1.4rem;
+    color: var(--just-black) ;
 }
 
 .social-list li a {
+    font-size: 2.5rem;
     text-decoration: none;
-    color: white;
+    color: var(--dark-gray);
+
+    text-shadow: 0.05em 0 0 var(--pink-lavander),
+    -0.025em -0.05em 0 var(--cute-yellow),
+    0.025em 0.05em 0 var(--turquoise)
 }
 
+
+
+.get-name:hover {
+    box-shadow: 0 8px 20px 0 rgba(40, 50, 179, 0.37);
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    transition:ease-in-out 500ms;
+    -webkit-transition:ease-in-out 500ms;
+    -moz-transition:ease-in-out 500ms;
+    -ms-transition:ease-in-out 500ms;
+    -o-transition:ease-in-out 500ms;
+}

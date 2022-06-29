@@ -1,6 +1,6 @@
 
 header, footer, .generator-wrapper, 
-.name-container {
+.name-container, .result{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,14 @@ footer {
 
 .generator-wrapper {
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
 
 .result {
     width: 90%;
-    height: 30%;
+    height: 20%;
 }
 
 .name-container {
@@ -42,17 +42,17 @@ footer {
 .social-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     height: auto;
-    margin: 10px 0 0 0;
+    padding: 10px 0 10px;
 }
 
 .social-list {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 70%;
     height: auto;
     margin-top: 15px;
 }
