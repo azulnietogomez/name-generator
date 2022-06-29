@@ -10,26 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
     <!--Styles--> 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/skin.css">
+
     <title>Name Generator</title>
 </head>
 <body>
     <header>
-        <nav class="header-nav">
-            <a class="header__logo">Azul-Dev</a>
-        </nav>
+            <a class="header__logo">Name Generator by Azul </a>
     </header>
+
     <main>
-        <section class="generator">
-            <div class="generator-container">
+            <section class="generator-wrapper">
                 <h1>¡ Dile adios a tu Deadname !</h1>
                 <button class="get-name girl-name" id="get-name" onclick="GenerateGirlName()">Chica</button>
                 <button class="get-name boy-name" id="get-name" onclick="GenerateBoyName()">Chico</button>
-                <button class="get-name nb-name" id="get-name" onclick="GenerateNbName()">Non Binary</button>
+                <button class="get-name nb-name" id="get-name" onclick="GenerateNbName()">No binarie</button>
                 <h2>Tu nuevo nombre (o no) es:</h2>
                 <div class="result" id="result"></div>
-            </div>
-        </section>
+            </section>
     </main>
     <script src="./script.js"></script>
     <footer>

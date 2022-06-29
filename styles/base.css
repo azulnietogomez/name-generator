@@ -1,0 +1,17 @@
+:root {
+    --pink-lavander: #d8a7ca;
+    --turquoise: #4effef;
+
+    --fuente: 'Pushster', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
